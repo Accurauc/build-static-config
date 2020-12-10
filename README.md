@@ -1,3 +1,5 @@
+0. run `expo build:web --no-pwa` for our project
+
 1. run `npm install` to install dependency
 
 2. run `mkdir dist` and copy the static file into this folder
