@@ -17,3 +17,7 @@ app.use(express.static(STATIC));
 app.get('*', function (req, res) {
   res.sendFile(INDEX);
 });
+
+app.listen(PORT, () => {
+  console.log('listen port', PORT)
+})
